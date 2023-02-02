@@ -1,0 +1,8 @@
+@media (max-width:600px){
+    .menu-icon-responsive{
+        display: block;
+    }
+    .menu-container{
+        display: none;
+    }
+}
