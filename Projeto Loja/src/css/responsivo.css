@@ -5,4 +5,19 @@
     .menu-container{
         display: none;
     }
+    .slides div{
+        width: 400px;
+        border: 1px solid rgb(168, 70, 70);
+    }
+    .slides img{
+        width: 400px;
+        height: 400px;
+
+    }
+    .slide-imagens {
+        height: 400px;
+        height: 400px;
+
+    }
+
 }
