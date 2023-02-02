@@ -77,8 +77,8 @@
 
 /**container de slides*/
 .slide-imagens {
-    width: 1280px;
-    height: 600px;
+    width: 100%;
+    height: 700px;
     overflow: hidden;
     transition: all 0.5s;
     margin: 0 auto;
@@ -112,12 +112,12 @@
 }
 #bt-prox {
     top: 50%;
-    right: 10%;
+    right: 2%;
 }
 
 #bt-voltar {
     top: 50%;
-    left: 10%;
+    left: 2%;
 }
 .imgAtual {
     transition: all 0.5s;
