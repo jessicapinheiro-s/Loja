@@ -1,64 +1,121 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.item-coluna{
+
+.item-coluna {
     border: 1px solid blue;
 }
-.produto div{
+
+.produto div {
     padding: 15px 10px;
 }
-.produto-img{
+
+.produto-img {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /*imagem do produto*/
-.img-produto{
+.img-produto {
     width: 200px;
 }
+
 /*botão comprar*/
-.btn-comprar{
+.btn-comprar {
     text-align: center;
 }
-.btn-comprar button{
+
+.btn-comprar button {
     width: 50%;
     border: none;
     padding: 5px;
     height: 40px;
     border-radius: 20px;
 }
-.btn-comprar button:hover{
+
+.btn-comprar button:hover {
     transform: scale(1.1);
     transition: all 0.5s;
     background-color: #1a5096;
 }
+
 /*CABEÇALHO*/
-.header{
+.header {
     background-color: #fffeca;
 }
-.header-content{
+
+.header-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 30px;
 }
+
 /*menu*/
-.menu-container{
+.menu-container {
     width: 40%;
     margin-bottom: 0px;
     align-items: center;
 }
-.menu ul{
+
+.menu ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 0;
 }
+
 /*icon menu responsive*/
-.menu-icon-responsive{
+.menu-icon-responsive {
     display: none;
     font-size: 2rem;
+}
+
+/**container de slides*/
+.slide-imagens {
+    width: 1280px;
+    height: 600px;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+}
+
+.bt {
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: -5px;
+    background: transparent;
+}
+
+.bt i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.bt i:hover {
+    transform: scale(1.1, 1.1);
+    /*almenta o tamanho*/
+}
+#bt-prox {
+    top: 50%;
+    right: 10%;
+}
+
+#bt-voltar {
+    top: 50%;
+    left: 10%;
 }
