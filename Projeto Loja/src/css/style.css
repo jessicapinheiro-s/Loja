@@ -152,3 +152,15 @@
 .row{
     margin: 40px auto 40px;
 }
+/*banner 1*/
+.banner-1{
+    width: 100%;
+}
+
+.banner-img-1{
+    width: 100%;
+}
+.banner-img-1 img{
+    width: 100%;
+    height: 600px;
+}
