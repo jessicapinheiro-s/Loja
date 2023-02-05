@@ -1,36 +1,36 @@
-@media (max-width:600px){
-    .menu-icon-responsive{
+@media (max-width:600px) {
+    .menu-icon-responsive {
         display: block;
     }
-    .menu-container{
+
+    .menu-container {
         display: none;
     }
+
     .menu-icon-responsive i:hover {
         transform: scale((1.1));
         transition: all 0.5s;
     }
-    .slides div{
-        border: 1px solid rgb(168, 70, 70);
-    }
-    .slides img{
+
+    .slides img {
         width: 600px;
         height: 400px;
-
     }
+
     .slide-imagens {
         height: 400px;
         height: 400px;
 
     }
+
     #bt-prox,
     #bt-voltar {
         top: 30%;
-    } 
-    
-    .box{
+    }
+
+    .box {
         width: 80%;
         margin: 20px auto 20px;
-
     }
-    
+
 }
