@@ -19,7 +19,7 @@ function slide() {
     } else if (atual < 0) {
         atual = images.length - 1;
     }
-    document.querySelector('.imgAtual').classList.remove('.imgAtual');
+    //document.querySelector('.imgAtual').classList.remove('imgAtual');
     //define o tamanho da marginLeft de acordo com o tamanho da tela
     
     if (window.matchMedia("(min-width:1600px)").matches) {
@@ -33,3 +33,11 @@ function slide() {
     document.getElementById('primeiraImg').classList.add('.imgAtual');
 }
 slide();
+
+/*reponsive container boxes*/ 
+function responsive(){
+    if(window.matchMedia("(max-width:600px)").matches){
+        document.querySelector('.d-flex').classList.remove('d-flex');
+    }
+}
+responsive();
