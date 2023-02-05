@@ -75,6 +75,16 @@
     justify-content: space-around;
     margin-bottom: 0;
 }
+.menu ul li a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: #1a5096;
+    transition: all 0.5s;
+}
+
 
 /*icon menu responsive*/
 .menu-icon-responsive {
