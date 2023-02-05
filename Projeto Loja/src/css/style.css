@@ -3,13 +3,16 @@
     padding: 0;
 }
 
-.item-coluna {
+/*.item-coluna {
     border: 1px solid blue;
+}*/
+.produto{
+    box-shadow: 1px 3px 5px 3px #c4c4c457;
+    border-radius: 10px;
+    padding: 30px 20px;
+
 }
 
-.produto div {
-    padding: 15px 10px;
-}
 
 .produto-img {
     width: 100%;
