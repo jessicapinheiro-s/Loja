@@ -10,11 +10,10 @@
         transition: all 0.5s;
     }
     .slides div{
-        width: 400px;
         border: 1px solid rgb(168, 70, 70);
     }
     .slides img{
-        width: 400px;
+        width: 600px;
         height: 400px;
 
     }
@@ -23,6 +22,11 @@
         height: 400px;
 
     }
+    #bt-prox,
+    #bt-voltar {
+        top: 30%;
+    } 
+    
     .box{
         width: 80%;
         margin: 20px auto 20px;
