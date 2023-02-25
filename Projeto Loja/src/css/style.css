@@ -213,3 +213,7 @@ footer .logo {
 .menu-footer-content ul li a {
     color: #fff;
 }
+.principal-conteiner-itens{
+    border: 1px solid red;
+    width: 100%;
+}
