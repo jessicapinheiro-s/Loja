@@ -3,18 +3,6 @@
     padding: 0;
 }
 
-
-.produto {
-    box-shadow: 1px 3px 5px 3px #c4c4c457;
-    border-radius: 10px;
-    padding: 30px 20px;
-    transition: all 0.5s;
-}
-
-.produto div {
-    padding: 5px;
-}
-
 .produto-img {
     width: 100%;
     display: flex;
@@ -25,28 +13,6 @@
 /*imagem do produto*/
 .img-produto {
     width: 200px;
-}
-
-/*botão comprar*/
-.btn-comprar {
-    text-align: center;
-}
-
-.btn-comprar button {
-    width: 50%;
-    border: none;
-    padding: 5px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #1a5096;
-    color: #fff;
-
-}
-
-.btn-comprar button:hover {
-    transform: scale(1.1);
-    background-color: #10386b;
-
 }
 
 /*CABEÇALHO*/
@@ -123,21 +89,11 @@
     color: #fff;
 }
 
-.bt i:hover,
-.produto:hover {
-    transform: scale(1.1, 1.1);
+.bt i:hover{
+    transform: scale(1.1);
     /*almenta o tamanho*/
 }
 
-#bt-prox {
-    top: 50%;
-    right: 2%;
-}
-
-#bt-voltar {
-    top: 50%;
-    left: 2%;
-}
 
 .imgAtual {
     transition: all 0.5s;
@@ -149,10 +105,14 @@
     width: 20%;
     padding: 25px 20px;
     text-align: center;
-    box-shadow: 1px 3px 5px 3px rgba(196, 196, 196, 0.322);
+    box-shadow: 1px 3px 5px 3px #c4c4c452;
     border-radius: 10px;
+    transition: ease 0.5s;
 }
-
+.box:hover,
+.produto:hover{
+    transform: scale(1.1);
+}
 .box i {
     font-size: 3rem;
     width: 100%;
@@ -166,12 +126,39 @@
 .container-box {
     justify-content: space-around;
     padding: 20px;
+    margin: 10px 0px 10px;
 }
-
+/*linha*/
 .row {
-    margin: 40px auto 40px;
+    margin: 25px 0px 25px;
+    padding: 0px;
+
+}
+.principal-conteiner-itens{
+    margin: 10px 0px 10px;
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+   margin: auto;
+   position: relative;
+   width: 10%;
+
+}
+.item-coluna{
+    width: 100%;
 }
 
+.produto {
+    box-shadow: 1px 3px 5px 3px #c4c4c457;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.produto div {
+    
+    padding: 10px;
+}
 /*banner 1*/
 .banner-1 {
     margin: 20px auto;
@@ -213,7 +200,41 @@ footer .logo {
 .menu-footer-content ul li a {
     color: #fff;
 }
-.principal-conteiner-itens{
-    border: 1px solid red;
-    width: 100%;
+
+
+/*botões*/
+#bt-prox {
+    top: 50%;
+    right: 2%;
+}
+
+#bt-voltar {
+    top: 50%;
+    left: 2%;
+}
+/*botão comprar*/
+.btn-comprar {
+    text-align: center;
+}
+
+.btn-comprar button {
+    width: 50%;
+    border: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1a5096;
+    color: #fff;
+    transition: all 0.5s;
+
+}
+
+.btn-comprar button:hover {
+    transform: scale(1.1);
+    background-color: #10386b;
+
+}
+.row div{
+    border: 1px solid rgb(255, 94, 0);
+
 }
